@@ -67,14 +67,11 @@ THEN I am again presented with current and future conditions for that city
 ## Technologies
 | ID # | Technologies |
 | --- | --- |
-| 1 | Markdown |
-| 2 | JavaScript |
-| 3 | Node.js |
-| 4 | express package |
-| 6 | mysql2 package |
-| 7 | sequelize package |
-| 8 | dotenv package |
-| 9 | nodemon package |
+| 1 | HTML |
+| 2 | CSS |
+| 3 | JavaScript |
+| 4 | Open Weather API |
+
 
 ## Installation
 

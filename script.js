@@ -19,7 +19,7 @@ let weather = {
         "https://openweathermap.org/img/wn/" + icon + ".png";
         document.querySelector(".description").innerText = description;
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
-        document.quesrySelector(".wind").innerText = "Wind Speed" + speed + "km/hr";
+        document.querySelector(".wind").innerText = "Wind Speed" + speed + "km/hr";
         document.querySelector(".weather").classList.remove("loading");
     },
     search: function() {
