@@ -38,4 +38,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
     }
 });
 
-weather.fetchWeather("Dallas");
+weather.fetchWeather("");
