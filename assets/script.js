@@ -26,3 +26,30 @@ const searchHistoryListEl = document.querySelector('#searchHistoryContainer');
 
 let searchHistoryList = [];
 
+// ************************************************************************
+// Function(s)
+// ************************************************************************
+const searchSubmitHandler = function (event) {
+    event.preventDefault(); // prevents page from refreshing
+
+    // get value of form input
+    const userInput = citySearchInputEl
+        .value
+        .trim();
+    
+    // send value to fetchCityName
+    if (userInput === '' || userInput === null) {
+        citySearchInputEl.classList.add("bg-red-300");
+    }
+    else if (userInput) {
+        citySearchInputEl.classList.remove("bg-red-300");
+        const modifiedCityName = userInput.toLowerCase();
+        
+        searchHistoryList.push(modifiedCityName);
+        fetchCityName(modifiedCityName);
+        saveSearchHistory();
+        renderSearchHistory();
+        citySearchInputEl.value = ''; // clear out element's value
+    }
+};
+
