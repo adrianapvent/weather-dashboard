@@ -21,3 +21,8 @@ const renderHumidityEl = document.querySelector('#curr-humidity');
 const renderUvIndexEl = document.querySelector('#curr-uvindex');
 const renderCurrDateEl = document.querySelector('#curr-date');
 
+// searchHistoryList
+const searchHistoryListEl = document.querySelector('#searchHistoryContainer');
+
+let searchHistoryList = [];
+
