@@ -52,7 +52,9 @@ SO THAT I can plan a trip accordingly
 
 ## Mock-up
 
+[Website](https://adrianapvent.github.io/weather-dashboard/)
 
+[Website-Screenshot]()
 
 
 
