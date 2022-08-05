@@ -54,9 +54,7 @@ SO THAT I can plan a trip accordingly
 
 [Website](https://adrianapvent.github.io/weather-dashboard/)
 
-[Website-Screenshot]()
-
-
+![Website-Screenshot](./assets/images/screenshot-wd.png)
 
 
 
